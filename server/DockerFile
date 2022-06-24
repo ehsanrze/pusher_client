@@ -1,0 +1,4 @@
+FROM quay.io/soketi/soketi:latest-16-alpine AS digital_dealer_websockets
+COPY soketi/config.json /home/node/config.json
+
+CMD ["node" ,"/app/bin/server.js start" ,"--config=/home/node/config.json"]

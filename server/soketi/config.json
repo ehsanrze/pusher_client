@@ -1,0 +1,11 @@
+{
+    "debug": true,
+    "appManager.array.apps": [
+        {
+            "id": "app-id",
+            "key": "app-key",
+            "secret": "app-secret",
+            "enableClientMessages": true
+        }
+    ]
+}
